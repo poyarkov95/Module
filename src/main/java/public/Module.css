@@ -1,0 +1,77 @@
+body {
+    background-color: powderblue;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    margin: 8px;
+}
+.button {
+    border-top: 1px solid #90afc2;
+    background: #73b2ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4f8c49), to(#73b2ff));
+    background: -webkit-linear-gradient(top, #4f8c49, #73b2ff);
+    background: -moz-linear-gradient(top, #4f8c49, #73b2ff);
+    background: -ms-linear-gradient(top, #4f8c49, #73b2ff);
+    background: -o-linear-gradient(top, #4f8c49, #73b2ff);
+    padding: 8px 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #4f738c;
+    background: #4f738c;
+    color: #adadad;
+}
+.button:active {
+    border-top-color: #a2aab0;
+    background: #a2aab0;
+}
+
+.border{
+    border-radius: 45px 45px 44px 44px;
+    -moz-border-radius: 45px 45px 44px 44px;
+    -webkit-border-radius: 45px 45px 44px 44px;
+    border: 5px solid #fa6c00;
+}
+
+.kill-button {
+    border-top: 1px solid #135178;
+    background: #10161a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff0a47), to(#10161a));
+    background: -webkit-linear-gradient(top, #ff0a47, #10161a);
+    background: -moz-linear-gradient(top, #ff0a47, #10161a);
+    background: -ms-linear-gradient(top, #ff0a47, #10161a);
+    background: -o-linear-gradient(top, #ff0a47, #10161a);
+    padding: 6.5px 13px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: #d0edde;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.kill-button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+.kill-button:active {
+    border-top-color: #61272c;
+    background: #61272c;
+}
